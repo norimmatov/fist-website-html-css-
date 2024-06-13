@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../bootstrap-5.0.2-dist/js/bootstrap.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <style>
+    body{
+      transition: all 0.5s linear;
+    }
+    .navbar{
+      height: 50px;
+      width: 100%;
+      padding-top: 0;
+      padding-bottom:0 ;
+      position: fixed;
+      z-index: 1;
+      .navigation{
+        padding-right: 10px;
+        a{
+          text-decoration: none;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+        
+      }
+    }
+      .icon{
+        width: 20%;
+        height: 100%;
+        background-color: rgb(33, 117, 189);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+          .fa-brands{
+            padding-left: 10px;
+            font-size: 30px;
+          }
+      }
+      .container-fluid{
+        width: 100%;
+        background-image: url(https://wallpapersmug.com/download/1920x1080/8d554d/celestial-world-digital-art-space-colorful.jpg);
+        background-attachment:fixed;
+        height: 730px;
+        padding-top: 300px;
+      }
+      .Services{
+        background-color:white;
+        padding: 50px;
+        padding-top: 150px;
+        height: 680px;
+        align-items: center;
+      }
+      .About{
+          background-image: url(https://getwallpapers.com/wallpaper/full/e/4/6/936332-beautiful-full-hd-1080p-desktop-backgrounds-1920x1080-photos.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          height: 600px;
+          .text{
+            height: 100%;
+            padding: 20px;
+            padding-top: 100px;
+          }
+        }
+        .son{
+          font-size: 40px;
+        }
+        .row{
+          margin-top: 50px;
+        }
+        img{
+            width: 100%;
+            transition: all 0.4s ease;
+          }
+          img:hover{
+            opacity: 70%;
+          }
+  </style>
+</head>
+<body>
+  <nav class="navbar bg-dark" data-bs-theme="dark">
+    <div class="icon text-white text-center">
+      <i class="fa-brands fa-bootstrap text-white"></i>
+      <h5>
+        Bootstrap
+      </h5>
+    </div>
+    <div class="navigation">
+      <a href="#Home">Home</a>
+      <a href="#Services">Services</a>
+      <a href="#About">About</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Contact">Contact</a>
+    </div>
+  </nav>
+  <div class="container-fluid text-center text-primary " id="Home">
+    <h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, dolor.
+    </h1>
+  </div>
+  <div class="Services text-center" id="Services">
+    <h1>Services</h1>
+    <div class="card-group">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV6-DQF2pBwNFV9KzPafu9RghrNF1tZ8J3AA&s" alt="">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero odit unde saepe? Similique, aliquid.</p>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV6-DQF2pBwNFV9KzPafu9RghrNF1tZ8J3AA&s" alt="">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero odit unde saepe? Similique, aliquid.</p>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV6-DQF2pBwNFV9KzPafu9RghrNF1tZ8J3AA&s" alt="">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero odit unde saepe? Similique, aliquid.</p>
+      </div>
+    </div>
+  </div>
+  <div class="About"id="About">
+      <div class="col-6 text bg-white"> 
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae porro a id molestias animi dolor, sit alias, unde iure quia nam amet sunt, libero accusamus. Et praesentium suscipit velit a hic id recusandae doloribus voluptatibus, sit accusamus, earum veniam dignissimos vitae! Quos eum iste voluptatem ratione maiores ducimus ut beatae debitis blanditiis tempora ipsam quis, dolorem atque quae error expedita?</p>
+      </div>
+      <div class="col-6"></div>
+  </div>
+  <div class="row sonlar bg-warning text-center">
+    <div class="col">
+      <p class="son">100</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, similique!</p>
+    </div>
+    <div class="col">
+      <p class="son">100</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, similique!</p>
+    </div>
+    <div class="col">
+      <p class="son">100</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, similique!</p>
+    </div>
+    <div class="col">
+      <p class="son">100</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, similique!</p>
+    </div>
+  </div>
+  <div class="container" id="Projects">
+    <div class="row">
+      <div class="col">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0gF2r4Qbq7gLdEzLA3qKacerxS-Q1Xi0YTg&s" alt="">
+      </div>
+      <div class="col">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0gF2r4Qbq7gLdEzLA3qKacerxS-Q1Xi0YTg&s" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0gF2r4Qbq7gLdEzLA3qKacerxS-Q1Xi0YTg&s" alt="">
+      </div>
+      <div class="col">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0gF2r4Qbq7gLdEzLA3qKacerxS-Q1Xi0YTg&s" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="Contact bg-warning container text-center" id="Contact">
+    <div class="row">
+      <div class="col">
+      <i class=" fa-brands fa-telegram"></i>
+      <h4>Telegram</h4>
+      </div>
+      <div class="col">
+      <i class="fa-brands fa-instagram"></i>
+      <h4>Instagram</h4>
+      </div>
+      <div class="col">
+      <i class="fa-brands fa-youtube"></i>
+      <h4>YouTube</h4>
+      </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
