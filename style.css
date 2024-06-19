@@ -2,123 +2,74 @@
     margin: 0;
     padding: 0;
 }
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+aside{
+    width: 30%;
+    height: 100%;
+    padding: 5px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 5px gainsboro;
+    position: fixed;
+    .rasm{
+    font-size: 25px;
+    text-align: center;
     a{
-        text-decoration: none;
+        color: blue;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
     }
     .nav{
-        display: flex;
-        width: 60%;
-        height: 40px;
-
+        width: 100%;
+        height: 100%;
+        margin: auto;
         a{
-            width: 100%;
-            height: 100%;
             text-align: center;
             text-decoration: none;
-            color:white;
             div{
                 width: 100%;
-                height: 100%;
+                height: 50px;
                 align-content: center;
             }
         }
     }
-}
-nav a:hover{
-    text-decoration: underline;
-}
-.hammasi .page1{
-    img{
-        position: absolute;
-        width: 100%;
-    }
-    nav,.all{
-        position: relative;
-        color: white;
-    }
-    .all{
-        text-align: center;
-        margin-top: 20%;
-        font-size: 35px;
+    .nav a div:hover{
+        text-decoration: underline;
+        color: blue;
     }
 }
-.text{
-    margin-top: 40%;
-    padding: 100px;
-}
-.rasmlar{
-    margin-top: 10%;
+main{
     display: flex;
-    justify-content: center;
-    .rasm1{
-        /* display: flex;
-        text-align: center;
-        margin: auto;
-        width: 100%; */
-        width: 400px;
-        height: 400px;
-        img{
-            width: 100%;
-            height: 100%;
+    justify-content: space-between;
+    padding-top: 150px;
+    float: inline-end;
+        .text{
+        font-size: 30px;
+        margin-left: 300px;
+            a{
+                color: blue;
+            }
+            button{
+                width: 70%;
+                height: 50px;
+                border: 1px solid black;
+                background-color: white;
+                    a{
+                        text-decoration: none;
+                        font-size: 20px;
+                        color: black;
+                        text-transform:capitalize;
+                    }
+            }
         }
-    }
-    .text1{
-        width: 400px;
-        height: 400px;
-        text-align: center;
-        align-content: center;
-    }
-}
-.rasmlar2{
-    margin-top: 10%;
-    display: flex;
-    justify-content: center;
-    .rasm2{
-        width: 400px;
-        height: 400px;
-        img{
-            width: 100%;
-            height: 100%;
+        .rasm1{
+            img{
+                width: 315px;
+            }
         }
-    }
-    .text2{
-        width: 400px;
-        height: 400px;
-        text-align: center;
-        align-content: center;
-    }
 }
-.gallery{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    gap: 5px;
-.yarm{
-    width: 400px;
-    height: 600px;
-    img{
-        width: 100%;
-        height: 100%;
-    }
-}
-.yarm2{
-    width: 405px;
-    height: 300px;
-    img{
-        width: 100%;
-        height: 100%;
-    }
-    .quarter{
-        width: 200px;
-        height: 300px;
-        display: flex;
-        gap: 5px;
-    }
-    
-}
+.a2{
+    padding-top: 150px;
 }
